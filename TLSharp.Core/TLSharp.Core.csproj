@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>TLSharp.NetStandard</PackageId>
+    <Authors>MRebati</Authors>
+    <Company />
+    <Product>TLSharp.NetStandard</Product>
+    <PackageProjectUrl>github.com/mrebati/tlsharp.netstandard</PackageProjectUrl>
+    <RepositoryUrl>github.com/mrebati/tlsharp.netstandard</RepositoryUrl>
+    <RepositoryType>open source</RepositoryType>
+    <PackageTags>Telegram API, Telegram, Telethon C#, TLSharp NetStandard, TLSharp</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeleSharp.TL\TeleSharp.TL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
