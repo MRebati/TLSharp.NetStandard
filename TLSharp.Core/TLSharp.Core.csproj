@@ -13,6 +13,7 @@
     <PackageTags>Telegram API, Telegram, Telethon C#, TLSharp NetStandard, TLSharp</PackageTags>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
+    <Description>Telegram API in C#</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
